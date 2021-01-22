@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/*mediaQuery*/
+/*mediaQuery*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* 以下test1用*/
+body {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+}
+
+.inner {
+  padding: 0 1.8%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.white {
+  color: #fff;
+}
+
+.container1 {
+  padding: 0 7.6%;
+}
+
+* {
+  color: #707070;
+  line-height: 2.5;
+}
+
+.txts {
+  font-size: 16px;
+}
+
+@media (max-width: 515px) {
+  .txts {
+    font-size: 13px;
+  }
+}
+
+.txtm {
+  font-size: 18px;
+}
+
+@media (max-width: 515px) {
+  .txtm {
+    font-size: 15px;
+  }
+}
+
+.txtl {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 970px) {
+  .txtl {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 690px) {
+  .txtl {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 515px) {
+  .txtl {
+    font-size: 13px;
+  }
+}
+
+section {
+  padding: 60px 0 40px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section .title {
+  position: relative;
+  width: 317.4px;
+  padding: 20px 0;
+  margin: 0 auto 75px;
+}
+
+@media (max-width: 880px) {
+  section .title {
+    margin: 0 auto 65px;
+  }
+}
+
+@media (max-width: 515px) {
+  section .title {
+    width: 250px;
+    margin-bottom: 40px;
+  }
+}
+
+section .title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #0ecda1;
+  border-left: 35.2px solid #0ecda1;
+  border-bottom: 20px solid transparent;
+  border-right: 35.2px solid transparent;
+}
+
+section .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 35.2px solid transparent;
+  border-bottom: 20px solid #0ecda1;
+  border-right: 35.2px solid #0ecda1;
+}
+
+section .title.white::before {
+  border-top: 20px solid #fff;
+  border-left: 35.2px solid #fff;
+  border-bottom: 20px solid transparent;
+  border-right: 35.2px solid transparent;
+}
+
+section .title.white::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 35.2px solid transparent;
+  border-bottom: 20px solid #fff;
+  border-right: 35.2px solid #fff;
+}
+
+section h1 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+@media (max-width: 880px) {
+  section h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 515px) {
+  section h1 {
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=common.css.map */
